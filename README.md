@@ -172,3 +172,94 @@ Group 3 bits: 000 | 101 | 111
 111 → 7
 
 Result → 057₈
+# BASIC LOGIC GATES 
+# 1.AND GATE
+# Symbol :
+The standard symbol for a 2-input AND gate looks like this:
+![image](https://github.com/user-attachments/assets/7e36d8c9-39cf-45fe-bb60-62ea44c15551)
+# Function
+The AND gate performs a logical multiplication. It outputs HIGH (1) only if all inputs are HIGH (1). For two inputs A and B, the output Q is given by:
+
+𝑄
+=
+𝐴
+⋅
+𝐵
+Q=A⋅B
+Or in Boolean algebra:
+
+𝑄
+=
+𝐴
+∧
+𝐵
+Q=A∧B
+# Truth table
+| A | B | Q = A AND B |
+| - | - | ----------- |
+| 0 | 0 | 0           |
+| 0 | 1 | 0           |
+| 1 | 0 | 0           |
+| 1 | 1 | 1           |
+# OR GATE
+# Symbol :
+Standard symbol for a 2-input OR gate:
+![image](https://github.com/user-attachments/assets/1375d233-4bc7-4618-a0a2-7f8752ab29f8)
+# Function
+The OR gate performs logical addition. It outputs HIGH (1) if at least one of its inputs is HIGH. For two inputs A and B, the output Q is:
+
+𝑄
+=
+𝐴
++
+𝐵
+Q=A+B
+Or in Boolean logic:
+
+𝑄
+=
+𝐴
+∨
+𝐵
+Q=A∨B
+# Truth table
+| A | B | Q = A OR B |
+| - | - | ---------- |
+| 0 | 0 | 0          |
+| 0 | 1 | 1          |
+| 1 | 0 | 1          |
+| 1 | 1 | 1          |
+# NOT GATE 
+# Symbol:
+Standard symbol for a NOT gate:
+![image](https://github.com/user-attachments/assets/05055d01-cf25-4946-87eb-97cf689b1ff5)
+# Function 
+The NOT gate inverts its input:
+
+If the input is 1, the output is 0.
+
+If the input is 0, the output is 1.
+
+In Boolean logic:
+
+𝑄
+=
+𝐴
+‾
+Q= 
+A
+ 
+or
+
+𝑄
+=
+¬
+𝐴
+Q=¬A
+# Truth table
+| A | Q = NOT A |
+| - | --------- |
+| 0 | 1         |
+| 1 | 0         |
+
+
