@@ -233,7 +233,7 @@ The standard symbol for a 2-input AND gate looks like this:
 
 ![image](https://github.com/user-attachments/assets/3db401a1-1c50-4a3a-a56b-0b6e209aba5f)
 
-# Function
+# Function :
 The AND gate performs a logical multiplication. It outputs HIGH (1) only if all inputs are HIGH (1). For two inputs A and B, the output Q is given by:
 
 Q=A⋅B
@@ -244,7 +244,7 @@ Or in Boolean algebra:
 𝐵
 
 Q=A∧B
-# Truth table
+# Truth table :
 | INP A |INP B | OUTPUT Y    |
 | -     | -    | ----------- |
 | 0     | 0    | 0           |
@@ -257,14 +257,14 @@ Standard symbol for a 2-input OR gate:
 
 ![image](https://github.com/user-attachments/assets/5ddd0cbf-eb58-4782-887d-3dcf2427bf18)
 
-# Function
+# Function :
 The OR gate performs logical addition. It outputs HIGH (1) if at least one of its inputs is HIGH. For two inputs A and B, the output Q is:
 
 Q=A+B
 Or in Boolean logic:
 
 Q=A∨B
-# Truth table
+# Truth table :
 |INP A |INP B | OUTPUT Y |
 | -    | -    | ---------- |
 | 0    | 0    | 0          |
@@ -277,7 +277,7 @@ Standard symbol for a NOT gate:
 
 ![image](https://github.com/user-attachments/assets/39234de8-5b97-4111-afbb-c48b097546ec)
 
-# Function 
+# Function :
 The NOT gate inverts its input:
 
 If the input is 1, the output is 0.
@@ -292,7 +292,7 @@ A
 or
 
 Q=¬A
-# Truth table
+# Truth table :
 | INP A | OUTPUT Y  |
 | -     | --------- |
 | 0     | 1         |
@@ -303,7 +303,7 @@ It's similar to the AND gate symbol but with a small circle (representing NOT) a
 
 ![image](https://github.com/user-attachments/assets/deaf3611-c7ad-4437-8c91-56166d9c4226)
 
-# Function
+# Function :
 
 The NAND (Not AND) gate outputs:
 
@@ -313,7 +313,7 @@ Otherwise, it outputs 1
 
 Output= 
 A⋅B
-# Truth table
+# Truth table :
 |INP A |INP B |(A.B)        | OUTPUT Y                  |
 | -    | -    | ----------- | ------------------------- |
 | 0    | 0    | 0           | 1                         |
@@ -336,7 +336,7 @@ It is the inverse of the OR gate.
 | 0    | 1     | 0       |
 | 1    | 0     | 0       |
 | 1    | 1     | 0       |
-# XOR GATE
+# 6.XOR GATE
 # Symbol :
 
 ![image](https://github.com/user-attachments/assets/d9f9f1df-f2ad-4fe1-91de-bd90ceb47b5f)
@@ -354,7 +354,7 @@ Boolean Expression : Y = A ⊕ B = A̅·B + A·B̅
 | 1    | 0    | 1       |
 | 1    | 1    | 0       |
 
-# XNOR GATE :
+# 7.XNOR GATE :
 # Symbol :
 
 ![image](https://github.com/user-attachments/assets/7f54ebf7-8a5a-48de-897e-bc60afc44ba0)
@@ -372,6 +372,7 @@ Boolean Expression : Y = (A ⊕ B)̅ = A·B + A̅·B̅
 | 1     | 0 | 0        |
 | 1     | 1 | 1        |
 
+# Integrated circuits Ic's 
 
 
 
