@@ -1,3 +1,18 @@
+# DIGITAL ELECTRONICS
+
+# Table of Contents
+1.What is digital electronics
+
+2.Applications of Digital Electronics
+
+3.Digital vs Analog Signals
+
+4.Number System
+
+5.Conversion between Number System
+
+6.Basic Logic gates
+
 # What is digital electronics?
 Digital electronics is a branch of electronics that deals with systems that use discrete (distinct) signal levels, typically represented by binary numbers — 0 and 1. Unlike analog electronics, where signals can vary smoothly across a range of values, digital electronics processes information using only two states (usually referred to as LOW and HIGH, or OFF and ON).
 
@@ -60,15 +75,20 @@ A number system is a way to represent and express numbers using a set of symbols
 Binary: 1011₂
 
 = (1×2³) + (0×2²) + (1×2¹) + (1×2⁰)
+
 = 8 + 0 + 2 + 1
+
 = 11₁₀
 
 # 2. Decimal → Binary
 Decimal: 13₁₀
 
 13 ÷ 2 = 6 remainder 1
+
 6 ÷ 2 = 3 remainder 0
+
 3 ÷ 2 = 1 remainder 1
+
 1 ÷ 2 = 0 remainder 1
 
 Read remainders bottom to top → 1101₂
@@ -77,7 +97,9 @@ Read remainders bottom to top → 1101₂
 Binary: 110110₂
 
 Group in 3 bits → 110 | 110
+
 110₂ = 6₈
+
 110₂ = 6₈
 
 Result → 66₈
@@ -86,6 +108,7 @@ Result → 66₈
 Octal: 57₈
 
 5₈ → 101₂
+
 7₈ → 111₂
 
 Result → 101111₂
@@ -94,7 +117,9 @@ Result → 101111₂
 Binary: 10101110₂
 
 Group in 4 bits → 1010 | 1110
+
 1010₂ = A₁₆
+
 1110₂ = E₁₆
 
 Result → AE₁₆
@@ -103,6 +128,7 @@ Result → AE₁₆
 Hex: 3F₁₆
 
 3₁₆ → 0011₂
+
 F₁₆ → 1111₂
 
 Result → 00111111₂
@@ -111,7 +137,9 @@ Result → 00111111₂
 Decimal: 125₁₀
 
 125 ÷ 8 = 15 remainder 5
+
 15 ÷ 8 = 1 remainder 7
+
 1 ÷ 8 = 0 remainder 1
 
 Read remainders bottom to top → 175₈
@@ -120,14 +148,18 @@ Read remainders bottom to top → 175₈
 Octal: 745₈
 
 = (7×8²) + (4×8¹) + (5×8⁰)
+
 = (7×64) + (4×8) + (5×1)
+
 = 448 + 32 + 5
+
 = 485₁₀
 
 # 9. Decimal → Hexadecimal
 Decimal: 254₁₀
 
 254 ÷ 16 = 15 remainder 14 (E)
+
 15 ÷ 16 = 0 remainder 15 (F)
 
 Read remainders bottom to top → FE₁₆
@@ -136,23 +168,34 @@ Read remainders bottom to top → FE₁₆
 Hex: 2A₁₆
 
 = (2×16¹) + (A×16⁰)
+
 = (2×16) + (10×1)
+
 = 32 + 10
+
 = 42₁₀
 
 # 11. Octal → Hexadecimal
 Octal: 745₈
 
 Step 1: Octal → Binary
+
 7 → 111
+
 4 → 100
+
 5 → 101
+
 Binary = 111100101₂
 
 Step 2: Binary → Hex
+
 Group 4 bits: 0011 | 1100 | 101 (pad left 0 → 0101)
+
 0011 → 3
+
 1100 → C
+
 0101 → 5
 
 Result → 3C5₁₆
@@ -161,38 +204,42 @@ Result → 3C5₁₆
 Hex: 2F₁₆
 
 Step 1: Hex → Binary
+
 2 → 0010
+
 F → 1111
+
 Binary = 00101111₂
 
 Step 2: Binary → Octal
+
 Group 3 bits: 000 | 101 | 111
+
 000 → 0
+
 101 → 5
+
 111 → 7
 
 Result → 057₈
+
 # BASIC LOGIC GATES 
 # 1.AND GATE
 # Symbol :
 The standard symbol for a 2-input AND gate looks like this:
-![image](https://github.com/user-attachments/assets/7e36d8c9-39cf-45fe-bb60-62ea44c15551)
+
+![image](https://github.com/user-attachments/assets/3db401a1-1c50-4a3a-a56b-0b6e209aba5f)
+
 # Function
 The AND gate performs a logical multiplication. It outputs HIGH (1) only if all inputs are HIGH (1). For two inputs A and B, the output Q is given by:
 
-𝑄
-=
-𝐴
-⋅
-𝐵
 Q=A⋅B
 Or in Boolean algebra:
 
-𝑄
-=
 𝐴
 ∧
 𝐵
+
 Q=A∧B
 # Truth table
 | A | B | Q = A AND B |
@@ -204,23 +251,15 @@ Q=A∧B
 # OR GATE
 # Symbol :
 Standard symbol for a 2-input OR gate:
-![image](https://github.com/user-attachments/assets/1375d233-4bc7-4618-a0a2-7f8752ab29f8)
+
+![image](https://github.com/user-attachments/assets/5ddd0cbf-eb58-4782-887d-3dcf2427bf18)
+
 # Function
 The OR gate performs logical addition. It outputs HIGH (1) if at least one of its inputs is HIGH. For two inputs A and B, the output Q is:
 
-𝑄
-=
-𝐴
-+
-𝐵
 Q=A+B
 Or in Boolean logic:
 
-𝑄
-=
-𝐴
-∨
-𝐵
 Q=A∨B
 # Truth table
 | A | B | Q = A OR B |
@@ -232,7 +271,9 @@ Q=A∨B
 # NOT GATE 
 # Symbol:
 Standard symbol for a NOT gate:
-![image](https://github.com/user-attachments/assets/05055d01-cf25-4946-87eb-97cf689b1ff5)
+
+![image](https://github.com/user-attachments/assets/39234de8-5b97-4111-afbb-c48b097546ec)
+
 # Function 
 The NOT gate inverts its input:
 
@@ -242,19 +283,11 @@ If the input is 0, the output is 1.
 
 In Boolean logic:
 
-𝑄
-=
-𝐴
-‾
 Q= 
 A
  
 or
 
-𝑄
-=
-¬
-𝐴
 Q=¬A
 # Truth table
 | A | Q = NOT A |
