@@ -245,13 +245,13 @@ Or in Boolean algebra:
 
 Q=A∧B
 # Truth table
-| A | B | Q = A AND B |
-| - | - | ----------- |
-| 0 | 0 | 0           |
-| 0 | 1 | 0           |
-| 1 | 0 | 0           |
-| 1 | 1 | 1           |
-# OR GATE
+| INP A |INP B | OUTPUT Y    |
+| -     | -    | ----------- |
+| 0     | 0    | 0           |
+| 0     | 1    | 0           |
+| 1     | 0    | 0           |
+| 1     | 1    | 1           |
+# 2.OR GATE
 # Symbol :
 Standard symbol for a 2-input OR gate:
 
@@ -265,13 +265,13 @@ Or in Boolean logic:
 
 Q=A∨B
 # Truth table
-| A | B | Q = A OR B |
-| - | - | ---------- |
-| 0 | 0 | 0          |
-| 0 | 1 | 1          |
-| 1 | 0 | 1          |
-| 1 | 1 | 1          |
-# NOT GATE 
+|INP A |INP B | OUTPUT Y |
+| -    | -    | ---------- |
+| 0    | 0    | 0          |
+| 0    | 1    | 1          |
+| 1    | 0    | 1          |
+| 1    | 1    | 1          |
+# 3.NOT GATE 
 # Symbol:
 Standard symbol for a NOT gate:
 
@@ -293,9 +293,89 @@ or
 
 Q=¬A
 # Truth table
-| A | Q = NOT A |
-| - | --------- |
-| 0 | 1         |
-| 1 | 0         |
-# Integrated Circuits Ic's
+| INP A | OUTPUT Y  |
+| -     | --------- |
+| 0     | 1         |
+| 1     | 0         |
+# 4.NAND GATE
+# Symbol :
+It's similar to the AND gate symbol but with a small circle (representing NOT) at the output.
+
+![image](https://github.com/user-attachments/assets/deaf3611-c7ad-4437-8c91-56166d9c4226)
+
+# Function
+
+The NAND (Not AND) gate outputs:
+
+0 only when both inputs are 1
+
+Otherwise, it outputs 1
+
+Output= 
+A⋅B
+# Truth table
+|INP A |INP B |(A.B)        | OUTPUT Y                  |
+| -    | -    | ----------- | ------------------------- |
+| 0    | 0    | 0           | 1                         |
+| 0    | 1    | 0           | 1                         |
+| 1    | 0    | 0           | 1                         |
+| 1    | 1    | 1           | 0                         |
+# 5.NOR GATE
+# Symbol :
+![image](https://github.com/user-attachments/assets/627f332b-e977-42de-9886-a492488e4d49)
+
+# Function :
+
+A NOR (Not OR) gate gives an output of 1 only when both inputs are 0.
+
+It is the inverse of the OR gate.
+# Truth Table :
+|INP A | INP B | OUTPUT Y |
+| -    | -     | ------- |
+| 0    | 0     | 1       |
+| 0    | 1     | 0       |
+| 1    | 0     | 0       |
+| 1    | 1     | 0       |
+# XOR GATE
+# Symbol :
+
+![image](https://github.com/user-attachments/assets/d9f9f1df-f2ad-4fe1-91de-bd90ceb47b5f)
+
+# Function :
+The XOR (Exclusive OR) gate gives an output of 1 only when the inputs are different.
+
+Boolean Expression : Y = A ⊕ B = A̅·B + A·B̅
+
+# Truth table :
+|INP A |INP B | OUTPUT Y |
+| -    | -    | ------- |
+| 0    | 0    | 0       |
+| 0    | 1    | 1       |
+| 1    | 0    | 1       |
+| 1    | 1    | 0       |
+
+# XNOR GATE :
+# Symbol :
+
+![image](https://github.com/user-attachments/assets/7f54ebf7-8a5a-48de-897e-bc60afc44ba0)
+
+# Function :
+The XNOR (Exclusive NOR) gate gives an output of 1 only when the inputs are the same.
+
+Boolean Expression : Y = (A ⊕ B)̅ = A·B + A̅·B̅
+
+# Truth table :
+| INP A |INP B | OUTPUT Y |
+| -     | - | -------- |
+| 0     | 0 | 1        |
+| 0     | 1 | 0        |
+| 1     | 0 | 0        |
+| 1     | 1 | 1        |
+
+
+
+
+
+
+
 
