@@ -400,7 +400,10 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 
 # Pin Diagram:
 
-![image](https://github.com/user-attachments/assets/9701293e-2a31-4db3-901a-143ea6961c11)
+![image](https://github.com/user-attachments/assets/455259fe-743c-4cf0-b307-fd59847e666d)
+
+![image](https://github.com/user-attachments/assets/320b91f3-7e26-4c40-816d-9286e99f7b32)
+
 
 # Pin Description
 | **Pin No.** | **Name** | **Function**                 |
