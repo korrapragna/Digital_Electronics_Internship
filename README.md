@@ -373,6 +373,29 @@ Boolean Expression : Y = (A ⊕ B)̅ = A·B + A̅·B̅
 | 1     | 1 | 1        |
 
 # Integrated Circuits Ic's
+what is an Ic?
+An IC (Integrated Circuit) is a small electronic device made of a semiconductor material (usually silicon) that contains a large number of tiny components like:
+
+- Transistors
+
+- Resistors
+
+- Capacitors
+
+- Diodes
+
+Here is a tabular summary of common logic gates, their corresponding IC numbers, descriptions, number of gates per IC, and pin configuration:
+
+| Logic Gate | IC Number (TTL Series) | Description                     | No. of Gates in IC | Pin Count |
+| ---------- | ---------------------- | ------------------------------- | ------------------ | --------- |
+| AND        | 7408                   | Quad 2-input AND gate           | 4                  | 14        |
+| OR         | 7432                   | Quad 2-input OR gate            | 4                  | 14        |
+| NOT        | 7404                   | Hex inverter (NOT gate)         | 6                  | 14        |
+| NAND       | 7400                   | Quad 2-input NAND gate          | 4                  | 14        |
+| NOR        | 7402                   | Quad 2-input NOR gate           | 4                  | 14        |
+| XOR        | 7486                   | Quad 2-input Exclusive-OR gate  | 4                  | 14        |
+| XNOR       | 74266 or 74LS266       | Quad 2-input Exclusive-NOR gate | 4                  | 14        |
+
 
 
 
