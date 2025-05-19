@@ -396,6 +396,180 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 | XOR        | 7486                   | Quad 2-input Exclusive-OR gate  | 4                  | 14        |
 | XNOR       | 74266 or 74LS266       | Quad 2-input Exclusive-NOR gate | 4                  | 14        |
 
+# 1. 7408-Quad 2-input AND gate
+
+# Pin Diagram:
+
+![image](https://github.com/user-attachments/assets/9701293e-2a31-4db3-901a-143ea6961c11)
+
+# Pin Description
+| **Pin No.** | **Name** | **Function**                 |
+| ----------- | -------- | ---------------------------- |
+| 1           | 1A       | Input A for Gate 1           |
+| 2           | 1B       | Input B for Gate 1           |
+| 3           | 1Y       | Output of Gate 1 (1A AND 1B) |
+| 4           | 2A       | Input A for Gate 2           |
+| 5           | 2B       | Input B for Gate 2           |
+| 6           | 2Y       | Output of Gate 2 (2A AND 2B) |
+| 7           | GND      | Ground (0V)                  |
+| 8           | 3Y       | Output of Gate 3 (3A AND 3B) |
+| 9           | 3A       | Input A for Gate 3           |
+| 10          | 3B       | Input B for Gate 3           |
+| 11          | 4Y       | Output of Gate 4 (4A AND 4B) |
+| 12          | 4A       | Input A for Gate 4           |
+| 13          | 4B       | Input B for Gate 4           |
+| 14          | Vcc      | Power Supply (+5V typical)   |
+
+# 2. 7432-Quad 2-input OR gate
+
+# Pin Diagram:
+
+![image](https://github.com/user-attachments/assets/246fef9c-999f-4943-b9fa-665ecd03e312)
+
+# Pin Description
+
+| Pin No. | Symbol | Function                              |
+| ------- | ------ | ------------------------------------- |
+| 1       | 1A     | Input of 1st OR gate                  |
+| 2       | 1B     | Input of 1st OR gate                  |
+| 3       | 1Y     | Output of 1st OR gate (1A OR 1B)      |
+| 4       | 2A     | Input of 2nd OR gate                  |
+| 5       | 2B     | Input of 2nd OR gate                  |
+| 6       | 2Y     | Output of 2nd OR gate (2A OR 2B)      |
+| 7       | GND    | Ground (0V)                           |
+| 8       | 3Y     | Output of 3rd OR gate (3A OR 3B)      |
+| 9       | 3A     | Input of 3rd OR gate                  |
+| 10      | 3B     | Input of 3rd OR gate                  |
+| 11      | 4Y     | Output of 4th OR gate (4A OR 4B)      |
+| 12      | 4A     | Input of 4th OR gate                  |
+| 13      | 4B     | Input of 4th OR gate                  |
+| 14      | Vcc    | Positive supply voltage (+5V typical) |
+
+# 3. 7404- Hex inverter- NOT GATE
+
+# Pin Diagram
+
+![image](https://github.com/user-attachments/assets/b14bd321-92b5-4960-b9ab-c6b037a2e407)
+
+# Pin Description
+| Pin No | Name | Function                              |
+| ------ | ---- | ------------------------------------- |
+| 1      | 1A   | Input of inverter 1                   |
+| 2      | 1Y   | Output of inverter 1 (inverted 1A)    |
+| 3      | 2A   | Input of inverter 2                   |
+| 4      | 2Y   | Output of inverter 2 (inverted 2A)    |
+| 5      | 3A   | Input of inverter 3                   |
+| 6      | 3Y   | Output of inverter 3 (inverted 3A)    |
+| 7      | GND  | Ground (0V)                           |
+| 8      | 4Y   | Output of inverter 4 (inverted 4A)    |
+| 9      | 4A   | Input of inverter 4                   |
+| 10     | 5Y   | Output of inverter 5 (inverted 5A)    |
+| 11     | 5A   | Input of inverter 5                   |
+| 12     | 6Y   | Output of inverter 6 (inverted 6A)    |
+| 13     | 6A   | Input of inverter 6                   |
+| 14     | Vcc  | Positive supply voltage (+5V typical) |
+
+# 4. 7400- Quad 2-input NAND gate 
+
+# Pin Diagram
+
+![image](https://github.com/user-attachments/assets/425b72ea-3a90-49e6-a17a-d1417abd9e8d)
+
+# Pin Description
+
+| Pin | Symbol | Function                              |
+| --- | ------ | ------------------------------------- |
+| 1   | 1A     | Input A of Gate 1                     |
+| 2   | 1B     | Input B of Gate 1                     |
+| 3   | 1Y     | Output of Gate 1 (NAND of 1A & 1B)    |
+| 4   | 2A     | Input A of Gate 2                     |
+| 5   | 2B     | Input B of Gate 2                     |
+| 6   | 2Y     | Output of Gate 2 (NAND of 2A & 2B)    |
+| 7   | GND    | Ground (0V)                           |
+| 8   | 3B     | Input B of Gate 3                     |
+| 9   | 3A     | Input A of Gate 3                     |
+| 10  | 3Y     | Output of Gate 3 (NAND of 3A & 3B)    |
+| 11  | 4Y     | Output of Gate 4 (NAND of 4A & 4B)    |
+| 12  | 4B     | Input B of Gate 4                     |
+| 13  | 4A     | Input A of Gate 4                     |
+| 14  | Vcc    | Positive Power Supply (+5V typically) |
+
+# 5.  7402- Quad 2-input NOR gate 
+
+# Pin Diagram
+
+![image](https://github.com/user-attachments/assets/c7d5e8f5-a2a1-4432-8a0d-a95e52e466d1)
+
+# Pin Description
+| Pin No. | Pin Name | Description                  |
+| ------- | -------- | ---------------------------- |
+| 1       | 1A       | Input A of NOR Gate 1        |
+| 2       | 1B       | Input B of NOR Gate 1        |
+| 3       | 1Y       | Output of NOR Gate 1         |
+| 4       | 2A       | Input A of NOR Gate 2        |
+| 5       | 2B       | Input B of NOR Gate 2        |
+| 6       | 2Y       | Output of NOR Gate 2         |
+| 7       | GND      | Ground (0V)                  |
+| 8       | 3Y       | Output of NOR Gate 3         |
+| 9       | 3A       | Input A of NOR Gate 3        |
+| 10      | 3B       | Input B of NOR Gate 3        |
+| 11      | 4Y       | Output of NOR Gate 4         |
+| 12      | 4A       | Input A of NOR Gate 4        |
+| 13      | 4B       | Input B of NOR Gate 4        |
+| 14      | Vcc      | Supply Voltage (+5V typical) |
+
+# 6. 7486- Quad 2-input Exclusive-OR gate 
+
+# Pin Diagram
+
+![image](https://github.com/user-attachments/assets/891acaa2-e436-474c-b513-33af7baa1734)
+
+# Pin Description
+| Pin No. | Pin Name | Description                  |
+| ------- | -------- | ---------------------------- |
+| 1       | 1A       | Input A of Gate 1            |
+| 2       | 1B       | Input B of Gate 1            |
+| 3       | 1Y       | Output of Gate 1 (1A ⊕ 1B)   |
+| 4       | 2A       | Input A of Gate 2            |
+| 5       | 2B       | Input B of Gate 2            |
+| 6       | 2Y       | Output of Gate 2 (2A ⊕ 2B)   |
+| 7       | GND      | Ground (0V)                  |
+| 8       | 3Y       | Output of Gate 3 (3A ⊕ 3B)   |
+| 9       | 3A       | Input A of Gate 3            |
+| 10      | 3B       | Input B of Gate 3            |
+| 11      | 4Y       | Output of Gate 4 (4A ⊕ 4B)   |
+| 12      | 4A       | Input A of Gate 4            |
+| 13      | 4B       | Input B of Gate 4            |
+| 14      | Vcc      | Supply Voltage (+5V typical) |
+
+# 7.  74266 or 74LS266- Quad 2-input Exclusive-NOR gate 
+
+# Pin Diagram
+
+![image](https://github.com/user-attachments/assets/8a1042b8-d649-4dd4-802f-c0cbc6ec60b6)
+
+# Pin Description
+| Pin No | Pin Name | Description                    |
+| ------ | -------- | ------------------------------ |
+| 1      | 1A       | Input A of EX-NOR Gate 1       |
+| 2      | 1B       | Input B of EX-NOR Gate 1       |
+| 3      | 1Y       | Output of EX-NOR Gate 1        |
+| 4      | 2A       | Input A of EX-NOR Gate 2       |
+| 5      | 2B       | Input B of EX-NOR Gate 2       |
+| 6      | 2Y       | Output of EX-NOR Gate 2        |
+| 7      | GND      | Ground (0V)                    |
+| 8      | 3Y       | Output of EX-NOR Gate 3        |
+| 9      | 3B       | Input B of EX-NOR Gate 3       |
+| 10     | 3A       | Input A of EX-NOR Gate 3       |
+| 11     | 4Y       | Output of EX-NOR Gate 4        |
+| 12     | 4B       | Input B of EX-NOR Gate 4       |
+| 13     | 4A       | Input A of EX-NOR Gate 4       |
+| 14     | Vcc      | Supply Voltage (+5V typically) |
+
+
+
+
+
 
 
 
