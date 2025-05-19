@@ -372,7 +372,7 @@ Boolean Expression : Y = (A ⊕ B)̅ = A·B + A̅·B̅
 | 1     | 0 | 0        |
 | 1     | 1 | 1        |
 
-# Integrated circuits Ic's 
+# Integrated Circuits Ic's
 
 
 
