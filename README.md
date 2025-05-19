@@ -16,13 +16,13 @@
 
 - [Integrated Circuits Ic's](#Integrated-Circuits-Ic's)
 
-# What is Digital Electronics?
+# What is Digital Electronics
 Digital electronics is a branch of electronics that deals with systems that use discrete (distinct) signal levels, typically represented by binary numbers — 0 and 1. Unlike analog electronics, where signals can vary smoothly across a range of values, digital electronics processes information using only two states (usually referred to as LOW and HIGH, or OFF and ON).
 
 0 → low voltage
 
 1 → high voltage
-# Applications of DE
+# Applications of Digital Electronics
 1.Computing
 
 2.Communication
@@ -71,7 +71,7 @@ A number system is a way to represent and express numbers using a set of symbols
 | **Octal**         | 8        | 0 to 7                        | 17₈         | Shorter binary representation              |
 | **Decimal**       | 10       | 0 to 9                        | 345₁₀       | Everyday arithmetic, human counting system |
 | **Hexadecimal**   | 16       | 0 to 9 and A to F (A=10…F=15) | 2F₁₆        | Programming, memory addresses, colors      |
-# Conversion between number system
+# Conversion between Number System
 
 # 1. Binary → Decimal
    
@@ -226,7 +226,7 @@ Group 3 bits: 000 | 101 | 111
 
 Result → 057₈
 
-# BASIC LOGIC GATES 
+# Basic Logic gates 
 # 1.AND GATE
 # Symbol :
 The standard symbol for a 2-input AND gate looks like this:
