@@ -420,6 +420,10 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 | 13          | 4B       | Input B for Gate 4           |
 | 14          | Vcc      | Power Supply (+5V typical)   |
 
+- Each AND gate outputs HIGH only if both inputs are HIGH.
+
+- Power: Pin 14 (Vcc), Ground: Pin 7.
+
 # 2. 7432-Quad 2-input OR gate
 
 # Pin Diagram:
@@ -445,6 +449,10 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 | 13      | 4B     | Input of 4th OR gate                  |
 | 14      | Vcc    | Positive supply voltage (+5V typical) |
 
+- Each gate gives a HIGH output when at least one input is HIGH.
+
+- Power supply on Pin 14, Ground on Pin 7.
+
 # 3. 7404- Hex inverter- NOT GATE
 
 # Pin Diagram
@@ -468,6 +476,10 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 | 12     | 6Y   | Output of inverter 6 (inverted 6A)    |
 | 13     | 6A   | Input of inverter 6                   |
 | 14     | Vcc  | Positive supply voltage (+5V typical) |
+
+- Each gate has 1 input and 1 output.
+
+- Vcc and GND are on Pins 14 and 7 respectively.
 
 # 4. 7400- Quad 2-input NAND gate 
 
@@ -494,6 +506,10 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 | 13  | 4A     | Input A of Gate 4                     |
 | 14  | Vcc    | Positive Power Supply (+5V typically) |
 
+- Each with 2 inputs (A & B) and 1 output (Y).
+
+- Pin 14 is for power supply (Vcc = +5V), and Pin 7 is for Ground.
+
 # 5.  7402- Quad 2-input NOR gate 
 
 # Pin Diagram
@@ -517,6 +533,10 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 | 12      | 4A       | Input A of NOR Gate 4        |
 | 13      | 4B       | Input B of NOR Gate 4        |
 | 14      | Vcc      | Supply Voltage (+5V typical) |
+
+- Each gate takes 2 inputs and gives 1 output based on NOR logic.
+
+- Pin 14 supplies power; Pin 7 connects to ground.
 
 # 6. 7486- Quad 2-input Exclusive-OR gate 
 
@@ -542,6 +562,10 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 | 13      | 4B       | Input B of Gate 4            |
 | 14      | Vcc      | Supply Voltage (+5V typical) |
 
+- Output is HIGH when only one input is HIGH.
+
+- Commonly used in adders and parity checkers.
+
 # 7.  74266 or 74LS266- Quad 2-input Exclusive-NOR gate 
 
 # Pin Diagram
@@ -565,6 +589,10 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 | 12     | 4B       | Input B of EX-NOR Gate 4       |
 | 13     | 4A       | Input A of EX-NOR Gate 4       |
 | 14     | Vcc      | Supply Voltage (+5V typically) |
+
+- Gates with open-collector outputs (requires pull-up resistor).
+
+- Output is HIGH when inputs are the same.
 
 
 
