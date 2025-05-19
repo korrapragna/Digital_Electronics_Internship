@@ -594,6 +594,19 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 
 - Output is HIGH when inputs are the same.
 
+# Applications of logic gates
+
+| **Logic Gate** | **IC Number **           | **Applications**                                                                                                                           |
+| -------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **AND Gate**   | 7408                     | - Password verification circuits<br>- Industrial safety systems<br>- Enable control in microcontrollers<br>- Traffic light controllers     |
+| **OR Gate**    | 7432                     | - Emergency alarm systems<br>- Elevator control systems<br>- Data routing in networks<br>- Lighting systems with multiple control switches |
+| **NOT Gate**   | 7404                     | - Signal inversion in processors<br>- Logic level shifting<br>- Control logic for automatic systems<br>- Oscillator circuits               |
+| **NAND Gate**  | 7400                     | - Used to build flip-flops<br>- Logic function implementation (universal gate)<br>- Alarm circuits<br>- Pulse generation                   |
+| **NOR Gate**   | 7402                     | - Used in control logic circuits<br>- Universal gate for building any logic circuit<br>- Digital locks<br>- Frequency detectors            |
+| **XOR Gate**   | 7486                     | - Parity checker and generator<br>- Half adders and full adders<br>- Error detection in communication<br>- Digital comparators             |
+| **XNOR Gate**  | 74266                    | - Equality comparators<br>- Error checking circuits<br>- Phase detectors<br>- Digital data matching systems                                |
+
+
 
 
 
