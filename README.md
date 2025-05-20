@@ -507,6 +507,7 @@ https://www.tinkercad.com/things/1VF6mKArJow-7404-hex-inverter-not-gate
 
 ![image](https://github.com/user-attachments/assets/407d9f9a-dd87-4cd9-8271-6f8031ede7dd)
 
+https://www.tinkercad.com/things/8wMx3LFda8G-7400-quad-2-input-nand-gate
 
 # Pin Description
 
@@ -540,6 +541,7 @@ https://www.tinkercad.com/things/1VF6mKArJow-7404-hex-inverter-not-gate
 
 ![image](https://github.com/user-attachments/assets/1644fd7a-bdbc-461b-9912-5b51ee6c45ad)
 
+https://www.tinkercad.com/things/ezbi74UdIu4-7402-quad-2-input-nor-gate
 
 # Pin Description
 | Pin No. | Pin Name | Description                  |
@@ -572,6 +574,7 @@ https://www.tinkercad.com/things/1VF6mKArJow-7404-hex-inverter-not-gate
 
 ![image](https://github.com/user-attachments/assets/586c3c71-705a-4309-931c-1b7725cb2442)
 
+https://www.tinkercad.com/things/5Ir7WDrAO2X-7486-quad-2-input-exclusive-or-gate
 
 # Pin Description
 | Pin No. | Pin Name | Description                  |
@@ -604,6 +607,7 @@ https://www.tinkercad.com/things/1VF6mKArJow-7404-hex-inverter-not-gate
 
 ![image](https://github.com/user-attachments/assets/c852ab4c-e7cb-422d-8d69-364390a1e49a)
 
+https://www.tinkercad.com/things/hXoqtZrVHhK-74266-quad-2-input-exclusive-nor-gate-
 
 # Pin Description
 | Pin No | Pin Name | Description                    |
