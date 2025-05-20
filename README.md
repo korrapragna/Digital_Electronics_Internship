@@ -400,9 +400,11 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 
 # Pin Diagram:
 
-![image](https://github.com/user-attachments/assets/455259fe-743c-4cf0-b307-fd59847e666d)
+![image](https://github.com/user-attachments/assets/a79dcd24-17f3-40aa-b717-ca9ff0577392)
 
-![image](https://github.com/user-attachments/assets/320b91f3-7e26-4c40-816d-9286e99f7b32)
+
+![image](https://github.com/user-attachments/assets/75d51c86-38e3-43ba-a62d-6abf5674be80)
+
 
 
 # Pin Description
@@ -431,7 +433,11 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 
 # Pin Diagram:
 
-![image](https://github.com/user-attachments/assets/246fef9c-999f-4943-b9fa-665ecd03e312)
+![image](https://github.com/user-attachments/assets/79427904-2eb1-4733-86b8-12075cac05fb)
+
+
+![image](https://github.com/user-attachments/assets/dd6b1242-2860-450d-abad-1ca603a16f40)
+
 
 # Pin Description
 
@@ -460,7 +466,12 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 
 # Pin Diagram
 
-![image](https://github.com/user-attachments/assets/b14bd321-92b5-4960-b9ab-c6b037a2e407)
+
+![image](https://github.com/user-attachments/assets/8220418f-24f1-47ca-ba9d-9fe6467f8711)
+
+
+![image](https://github.com/user-attachments/assets/ba0289c6-b410-46ce-bac8-91608014f86c)
+
 
 # Pin Description
 | Pin No | Name | Function                              |
@@ -488,7 +499,11 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 
 # Pin Diagram
 
-![image](https://github.com/user-attachments/assets/425b72ea-3a90-49e6-a17a-d1417abd9e8d)
+![image](https://github.com/user-attachments/assets/39ed22d7-d7d3-4919-97f2-26b5114a4625)
+
+
+![image](https://github.com/user-attachments/assets/407d9f9a-dd87-4cd9-8271-6f8031ede7dd)
+
 
 # Pin Description
 
@@ -517,7 +532,11 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 
 # Pin Diagram
 
-![image](https://github.com/user-attachments/assets/c7d5e8f5-a2a1-4432-8a0d-a95e52e466d1)
+![image](https://github.com/user-attachments/assets/bb832e91-2aeb-46e0-8849-da04a50bec79)
+
+
+![image](https://github.com/user-attachments/assets/1644fd7a-bdbc-461b-9912-5b51ee6c45ad)
+
 
 # Pin Description
 | Pin No. | Pin Name | Description                  |
@@ -545,7 +564,11 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 
 # Pin Diagram
 
-![image](https://github.com/user-attachments/assets/891acaa2-e436-474c-b513-33af7baa1734)
+![image](https://github.com/user-attachments/assets/e163eff0-ed64-4bba-b6af-d0f9e0b4f69b)
+
+
+![image](https://github.com/user-attachments/assets/586c3c71-705a-4309-931c-1b7725cb2442)
+
 
 # Pin Description
 | Pin No. | Pin Name | Description                  |
@@ -573,7 +596,11 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 
 # Pin Diagram
 
-![image](https://github.com/user-attachments/assets/8a1042b8-d649-4dd4-802f-c0cbc6ec60b6)
+![image](https://github.com/user-attachments/assets/2e2d6ce2-6aae-462d-a091-aae2c1f68c12)
+
+
+![image](https://github.com/user-attachments/assets/c852ab4c-e7cb-422d-8d69-364390a1e49a)
+
 
 # Pin Description
 | Pin No | Pin Name | Description                    |
