@@ -438,6 +438,8 @@ https://www.tinkercad.com/things/eDdC36KJHwt-7408-quad-2-input-and-gate?sharecod
 
 ![image](https://github.com/user-attachments/assets/dd6b1242-2860-450d-abad-1ca603a16f40)
 
+https://www.tinkercad.com/things/5M4UyYBgRPH-7432-quad-2-input-or-gate?sharecode=v5NsHIptAl-JgBzUaAZVW18XOLPlYQC5ay1_0E7kRKI
+
 
 # Pin Description
 
@@ -472,6 +474,7 @@ https://www.tinkercad.com/things/eDdC36KJHwt-7408-quad-2-input-and-gate?sharecod
 
 ![image](https://github.com/user-attachments/assets/ba0289c6-b410-46ce-bac8-91608014f86c)
 
+https://www.tinkercad.com/things/1VF6mKArJow-7404-hex-inverter-not-gate
 
 # Pin Description
 | Pin No | Name | Function                              |
