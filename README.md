@@ -405,7 +405,7 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 
 ![image](https://github.com/user-attachments/assets/75d51c86-38e3-43ba-a62d-6abf5674be80)
 
-
+https://www.tinkercad.com/things/eDdC36KJHwt-7408-quad-2-input-and-gate?sharecode=QM7E7AOvY_HAbfIPHpO0O6tC0lS-r3uNRAtc4ZyuGdY
 
 # Pin Description
 | **Pin No.** | **Name** | **Function**                 |
