@@ -417,7 +417,7 @@ An IC (Integrated Circuit) is a small electronic device made of a semiconductor 
 
 ![image](https://github.com/user-attachments/assets/75d51c86-38e3-43ba-a62d-6abf5674be80)
 
-![7408-Quad 2-input AND gate](https://github.com/user-attachments/assets/3dea49c9-2ada-4c07-8563-8fee509fcbbf)
+![image](https://github.com/user-attachments/assets/2f6d6482-50e0-4d99-aadf-f5848119888a)
 
 # Tinkercad Circuit: AND Gate using IC 7408
 
@@ -455,7 +455,7 @@ Description
 
 ![image](https://github.com/user-attachments/assets/dd6b1242-2860-450d-abad-1ca603a16f40)
 
-![7432-Quad 2-input OR gate](https://github.com/user-attachments/assets/9db8d18a-f87e-4c91-811a-a093351c9dba)
+![image](https://github.com/user-attachments/assets/874593f4-a76c-4b05-be1b-56a84728450a)
 
 # Tinkercad Circuit: OR Gate using IC 7432
 
@@ -494,7 +494,7 @@ Description
 
 ![image](https://github.com/user-attachments/assets/ba0289c6-b410-46ce-bac8-91608014f86c)
 
-![7404- Hex inverter- NOT GATE](https://github.com/user-attachments/assets/e3ae5693-b360-4e4b-9c2b-6e8b62b2ffb6)
+![image](https://github.com/user-attachments/assets/d545879f-7557-4a30-b6bd-8e34884fb7fb)
 
 # Tinkercad Circuit : NOT Gate using IC 7404
 
@@ -532,7 +532,7 @@ Description
 
 ![image](https://github.com/user-attachments/assets/407d9f9a-dd87-4cd9-8271-6f8031ede7dd)
 
-![7400- Quad 2-input NAND gate](https://github.com/user-attachments/assets/28e5e99f-78da-463e-9b0f-c2956dbf4267)
+![image](https://github.com/user-attachments/assets/e72cba9a-1d8e-4820-9a42-f1c1a00a2241)
 
 # Tinkercad Circuit : NAND Gate using IC 7400
 
@@ -571,7 +571,7 @@ Description
 
 ![image](https://github.com/user-attachments/assets/1644fd7a-bdbc-461b-9912-5b51ee6c45ad)
 
-![_7402- Quad 2-input NOR gate](https://github.com/user-attachments/assets/017a9c3f-b8a5-4c11-8ad5-d1b5749dfd04)
+![image](https://github.com/user-attachments/assets/edbb2011-5c4e-42a8-9ad1-5bb7231f13fe)
 
 # Tinkercad Circuit : NOR Gate using IC 7402
 
@@ -609,7 +609,7 @@ Description
 
 ![image](https://github.com/user-attachments/assets/586c3c71-705a-4309-931c-1b7725cb2442)
 
-![7486- Quad 2-input Exclusive-OR gate](https://github.com/user-attachments/assets/715673b7-5551-45cd-a3e4-f755283922b8)
+![image](https://github.com/user-attachments/assets/a88f8cf6-bc7f-4f55-9d05-33b68757a3be)
 
 # Tinkercad Circuit : XOR Gate using IC 7486
 
@@ -647,7 +647,7 @@ Description
 
 ![image](https://github.com/user-attachments/assets/c852ab4c-e7cb-422d-8d69-364390a1e49a)
 
-![_74266 - Quad 2-input Exclusive-NOR gate ](https://github.com/user-attachments/assets/c1d97e62-73da-4f56-a65b-09c9420d0e63)
+![image](https://github.com/user-attachments/assets/a8ede943-8cb3-4d21-8ba8-db44c7ba1720)
 
 #  Tinkercad Circuit : XNOR Gate using IC 74LS66
 
@@ -679,7 +679,24 @@ Description
 
 # Implementation of Logic gates
 
-# Implementation of AND gate usin NAND gate 7400
+# AND gate using NAND gate 7400
+![image](https://github.com/user-attachments/assets/7e58a2c4-db95-4c85-805d-60a7e9c912e1)
+
+# Tinkercad Link : 
+[AND gate using NAND gate 7400 on Tinkercad](https://www.tinkercad.com/things/a1t5VJz6Hb3-and-gate-using-nand-gate-7400)
+
+# OR gate using NAND gate 7400
+![image](https://github.com/user-attachments/assets/9a9959e8-38d7-440f-842b-0ddde0cfc8ed)
+
+# Tinkercad Link : 
+[OR Gate using NAND Gate - Tinkercad](https://www.tinkercad.com/things/4MVhqPxYb8F-or-gate-using-nand-gate-7400)
+
+# NOT gate using NAND gate 7400
+![image](https://github.com/user-attachments/assets/28119931-2eaf-4875-841a-6c543f7cc3d4)
+
+# Tinkercad Link : 
+[NOT Gate using NAND Gate (Tinkercad)](https://www.tinkercad.com/things/aatCVZAgsNE-not-gate-using-nand-gate-7400)
+
 
 
 
