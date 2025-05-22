@@ -14,7 +14,7 @@
 
 - [Basic Logic gates](#Basic-Logic-gates)
 
-- [Integrated Circuits Ic's](#Integrated-Circuits-Ic's)
+- [Integrated Circuits](#Integrated-Circuits)
 
 - [Implementation of Logic gates](#Implementation-of-Logic-gates)
   
@@ -374,7 +374,7 @@ Boolean Expression : Y = (A ⊕ B)̅ = A·B + A̅·B̅
 | 1     | 0 | 0        |
 | 1     | 1 | 1        |
 
-# Integrated Circuits Ic's
+# Integrated Circuits
 # what is an Ic?
 An IC (Integrated Circuit) is a small electronic device made of a semiconductor material (usually silicon) that contains a large number of tiny components like:
 
@@ -677,6 +677,7 @@ Description
 
 - Output is HIGH when inputs are the same.
 
+# Implementation of Logic gates
 
 
 
