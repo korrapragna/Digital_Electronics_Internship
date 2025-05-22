@@ -679,6 +679,11 @@ Description
 
 # Implementation of Logic gates
 
+# Implementation of AND gate usin NAND gate 7400
+
+
+
+
 
 
 
