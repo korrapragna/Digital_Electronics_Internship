@@ -373,7 +373,7 @@ Boolean Expression : Y = (A ⊕ B)̅ = A·B + A̅·B̅
 | 1     | 1 | 1        |
 
 # Integrated Circuits Ic's
-what is an Ic?
+# what is an Ic?
 An IC (Integrated Circuit) is a small electronic device made of a semiconductor material (usually silicon) that contains a large number of tiny components like:
 
 - Transistors
@@ -384,7 +384,7 @@ An IC (Integrated Circuit) is a small electronic device made of a semiconductor 
 
 - Diodes
 
-Here is a tabular summary of common logic gates, their corresponding IC numbers, descriptions, number of gates per IC, and pin configuration:
+# Types of logic gates and their IC numbers
 
 | Logic Gate | IC Number (TTL Series) | Description                     | No. of Gates in IC | Pin Count |
 | ---------- | ---------------------- | ------------------------------- | ------------------ | --------- |
@@ -396,16 +396,30 @@ Here is a tabular summary of common logic gates, their corresponding IC numbers,
 | XOR        | 7486                   | Quad 2-input Exclusive-OR gate  | 4                  | 14        |
 | XNOR       | 74266 or 74LS266       | Quad 2-input Exclusive-NOR gate | 4                  | 14        |
 
+# Applications of IC's
+| Logic Gate Type | IC Number | Applications                                              | Number of Gates | Pin Count |
+| --------------- | --------- | --------------------------------------------------------- | --------------- | --------- |
+| AND Gate        | 7408      | Digital logic circuits, alarm systems, control systems    | 4               | 14        |
+| OR Gate         | 7432      | Signal processing, data selection, switching circuits     | 4               | 14        |
+| NOT Gate        | 7404      | Inverters, signal restoration, logic level conversion     | 6               | 14        |
+| NAND Gate       | 7400      | Basic logic building blocks, flip-flops, control circuits | 4               | 14        |
+| NOR Gate        | 7402      | Oscillators, pulse generators, digital logic designs      | 4               | 14        |
+| XOR Gate        | 7486      | Parity checkers, adders, digital comparators              | 4               | 14        |
+| XNOR Gate       | 74266     | Equality comparators, arithmetic circuits                 | 4               | 14        |
+
 # 1. 7408-Quad 2-input AND gate
 
 # Pin Diagram:
 
-![image](https://github.com/user-attachments/assets/a79dcd24-17f3-40aa-b717-ca9ff0577392)
-
+![image](https://github.com/user-attachments/assets/3bad826b-93f9-433e-9c82-41d3a635951b)
 
 ![image](https://github.com/user-attachments/assets/75d51c86-38e3-43ba-a62d-6abf5674be80)
 
-https://www.tinkercad.com/things/eDdC36KJHwt-7408-quad-2-input-and-gate?sharecode=QM7E7AOvY_HAbfIPHpO0O6tC0lS-r3uNRAtc4ZyuGdY
+![7408-Quad 2-input AND gate](https://github.com/user-attachments/assets/3dea49c9-2ada-4c07-8563-8fee509fcbbf)
+
+# Tinkercad Circuit: AND Gate using IC 7408
+
+Link : [Open in Tinkercad](https://www.tinkercad.com/things/eDdC36KJHwt-7408-quad-2-input-and-gate)
 
 # Pin Description
 | **Pin No.** | **Name** | **Function**                 |
@@ -425,6 +439,8 @@ https://www.tinkercad.com/things/eDdC36KJHwt-7408-quad-2-input-and-gate?sharecod
 | 13          | 4B       | Input B for Gate 4           |
 | 14          | Vcc      | Power Supply (+5V typical)   |
 
+Description
+
 - Each AND gate outputs HIGH only if both inputs are HIGH.
 
 - Power: Pin 14 (Vcc), Ground: Pin 7.
@@ -433,13 +449,15 @@ https://www.tinkercad.com/things/eDdC36KJHwt-7408-quad-2-input-and-gate?sharecod
 
 # Pin Diagram:
 
-![image](https://github.com/user-attachments/assets/79427904-2eb1-4733-86b8-12075cac05fb)
-
+![image](https://github.com/user-attachments/assets/6be5005e-3926-4ac2-bca4-bec098b80c86)
 
 ![image](https://github.com/user-attachments/assets/dd6b1242-2860-450d-abad-1ca603a16f40)
 
-https://www.tinkercad.com/things/5M4UyYBgRPH-7432-quad-2-input-or-gate?sharecode=v5NsHIptAl-JgBzUaAZVW18XOLPlYQC5ay1_0E7kRKI
+![7432-Quad 2-input OR gate](https://github.com/user-attachments/assets/9db8d18a-f87e-4c91-811a-a093351c9dba)
 
+# Tinkercad Circuit: OR Gate using IC 7432
+
+Link : [Open in Tinkercad](https://www.tinkercad.com/things/5M4UyYBgRPH-7432-quad-2-input-or-gate)
 
 # Pin Description
 
@@ -460,6 +478,8 @@ https://www.tinkercad.com/things/5M4UyYBgRPH-7432-quad-2-input-or-gate?sharecode
 | 13      | 4B     | Input of 4th OR gate                  |
 | 14      | Vcc    | Positive supply voltage (+5V typical) |
 
+Description
+
 - Each gate gives a HIGH output when at least one input is HIGH.
 
 - Power supply on Pin 14, Ground on Pin 7.
@@ -468,13 +488,15 @@ https://www.tinkercad.com/things/5M4UyYBgRPH-7432-quad-2-input-or-gate?sharecode
 
 # Pin Diagram
 
-
 ![image](https://github.com/user-attachments/assets/8220418f-24f1-47ca-ba9d-9fe6467f8711)
-
 
 ![image](https://github.com/user-attachments/assets/ba0289c6-b410-46ce-bac8-91608014f86c)
 
-https://www.tinkercad.com/things/1VF6mKArJow-7404-hex-inverter-not-gate
+![7404- Hex inverter- NOT GATE](https://github.com/user-attachments/assets/e3ae5693-b360-4e4b-9c2b-6e8b62b2ffb6)
+
+# Tinkercad Circuit : NOT Gate using IC 7404
+
+Link : [Open 7404 Hex Inverter NOT Gate on Tinkercad](https://www.tinkercad.com/things/1VF6mKArJow-7404-hex-inverter-not-gate)
 
 # Pin Description
 | Pin No | Name | Function                              |
@@ -494,6 +516,8 @@ https://www.tinkercad.com/things/1VF6mKArJow-7404-hex-inverter-not-gate
 | 13     | 6A   | Input of inverter 6                   |
 | 14     | Vcc  | Positive supply voltage (+5V typical) |
 
+Description
+
 - Each gate has 1 input and 1 output.
 
 - Vcc and GND are on Pins 14 and 7 respectively.
@@ -504,10 +528,13 @@ https://www.tinkercad.com/things/1VF6mKArJow-7404-hex-inverter-not-gate
 
 ![image](https://github.com/user-attachments/assets/39ed22d7-d7d3-4919-97f2-26b5114a4625)
 
-
 ![image](https://github.com/user-attachments/assets/407d9f9a-dd87-4cd9-8271-6f8031ede7dd)
 
-https://www.tinkercad.com/things/8wMx3LFda8G-7400-quad-2-input-nand-gate
+![7400- Quad 2-input NAND gate](https://github.com/user-attachments/assets/28e5e99f-78da-463e-9b0f-c2956dbf4267)
+
+# Tinkercad Circuit : NAND Gate using IC 7400
+
+[Open in Tinkercad](https://www.tinkercad.com/things/8wMx3LFda8G-7400-quad-2-input-nand-gate)
 
 # Pin Description
 
@@ -528,6 +555,8 @@ https://www.tinkercad.com/things/8wMx3LFda8G-7400-quad-2-input-nand-gate
 | 13  | 4A     | Input A of Gate 4                     |
 | 14  | Vcc    | Positive Power Supply (+5V typically) |
 
+Description
+
 - Each with 2 inputs (A & B) and 1 output (Y).
 
 - Pin 14 is for power supply (Vcc = +5V), and Pin 7 is for Ground.
@@ -536,12 +565,15 @@ https://www.tinkercad.com/things/8wMx3LFda8G-7400-quad-2-input-nand-gate
 
 # Pin Diagram
 
-![image](https://github.com/user-attachments/assets/bb832e91-2aeb-46e0-8849-da04a50bec79)
-
+![image](https://github.com/user-attachments/assets/882c548a-420d-40fc-a8cc-1eb4cbfaca61)
 
 ![image](https://github.com/user-attachments/assets/1644fd7a-bdbc-461b-9912-5b51ee6c45ad)
 
-https://www.tinkercad.com/things/ezbi74UdIu4-7402-quad-2-input-nor-gate
+![_7402- Quad 2-input NOR gate](https://github.com/user-attachments/assets/017a9c3f-b8a5-4c11-8ad5-d1b5749dfd04)
+
+# Tinkercad Circuit : NOR Gate using IC 7402
+
+Link : [7402 Quad 2-Input NOR Gate on Tinkercad](https://www.tinkercad.com/things/ezbi74UdIu4-7402-quad-2-input-nor-gate)
 
 # Pin Description
 | Pin No. | Pin Name | Description                  |
@@ -561,6 +593,8 @@ https://www.tinkercad.com/things/ezbi74UdIu4-7402-quad-2-input-nor-gate
 | 13      | 4B       | Input B of NOR Gate 4        |
 | 14      | Vcc      | Supply Voltage (+5V typical) |
 
+Description
+
 - Each gate takes 2 inputs and gives 1 output based on NOR logic.
 
 - Pin 14 supplies power; Pin 7 connects to ground.
@@ -569,12 +603,15 @@ https://www.tinkercad.com/things/ezbi74UdIu4-7402-quad-2-input-nor-gate
 
 # Pin Diagram
 
-![image](https://github.com/user-attachments/assets/e163eff0-ed64-4bba-b6af-d0f9e0b4f69b)
-
+![image](https://github.com/user-attachments/assets/9c02be29-4ddc-4677-a6c0-a0f71201fcc1)
 
 ![image](https://github.com/user-attachments/assets/586c3c71-705a-4309-931c-1b7725cb2442)
 
-https://www.tinkercad.com/things/5Ir7WDrAO2X-7486-quad-2-input-exclusive-or-gate
+![7486- Quad 2-input Exclusive-OR gate](https://github.com/user-attachments/assets/715673b7-5551-45cd-a3e4-f755283922b8)
+
+# Tinkercad Circuit : XOR Gate using IC 7486
+
+Link : [Open in Tinkercad](https://www.tinkercad.com/things/5Ir7WDrAO2X-7486-quad-2-input-exclusive-or-gate)
 
 # Pin Description
 | Pin No. | Pin Name | Description                  |
@@ -594,6 +631,8 @@ https://www.tinkercad.com/things/5Ir7WDrAO2X-7486-quad-2-input-exclusive-or-gate
 | 13      | 4B       | Input B of Gate 4            |
 | 14      | Vcc      | Supply Voltage (+5V typical) |
 
+Description
+
 - Output is HIGH when only one input is HIGH.
 
 - Commonly used in adders and parity checkers.
@@ -602,12 +641,15 @@ https://www.tinkercad.com/things/5Ir7WDrAO2X-7486-quad-2-input-exclusive-or-gate
 
 # Pin Diagram
 
-![image](https://github.com/user-attachments/assets/2e2d6ce2-6aae-462d-a091-aae2c1f68c12)
-
+![image](https://github.com/user-attachments/assets/458d0c5b-76bf-431a-8d5c-7fc25de5f0fa)
 
 ![image](https://github.com/user-attachments/assets/c852ab4c-e7cb-422d-8d69-364390a1e49a)
 
-https://www.tinkercad.com/things/hXoqtZrVHhK-74266-quad-2-input-exclusive-nor-gate-
+![_74266 - Quad 2-input Exclusive-NOR gate ](https://github.com/user-attachments/assets/c1d97e62-73da-4f56-a65b-09c9420d0e63)
+
+#  Tinkercad Circuit : XNOR Gate using IC 74LS66
+
+Link : [Open in Tinkercad](https://www.tinkercad.com/things/hXoqtZrVHhK-74266-quad-2-input-exclusive-nor-gate-)
 
 # Pin Description
 | Pin No | Pin Name | Description                    |
@@ -627,23 +669,11 @@ https://www.tinkercad.com/things/hXoqtZrVHhK-74266-quad-2-input-exclusive-nor-ga
 | 13     | 4A       | Input A of EX-NOR Gate 4       |
 | 14     | Vcc      | Supply Voltage (+5V typically) |
 
+Description
+
 - Gates with open-collector outputs (requires pull-up resistor).
 
 - Output is HIGH when inputs are the same.
-
-# Applications of logic gates
-
-| **Logic Gate** | **IC Number **           | **Applications**                                                                                                                           |
-| -------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| **AND Gate**   | 7408                     | - Password verification circuits<br>- Industrial safety systems<br>- Enable control in microcontrollers<br>- Traffic light controllers     |
-| **OR Gate**    | 7432                     | - Emergency alarm systems<br>- Elevator control systems<br>- Data routing in networks<br>- Lighting systems with multiple control switches |
-| **NOT Gate**   | 7404                     | - Signal inversion in processors<br>- Logic level shifting<br>- Control logic for automatic systems<br>- Oscillator circuits               |
-| **NAND Gate**  | 7400                     | - Used to build flip-flops<br>- Logic function implementation (universal gate)<br>- Alarm circuits<br>- Pulse generation                   |
-| **NOR Gate**   | 7402                     | - Used in control logic circuits<br>- Universal gate for building any logic circuit<br>- Digital locks<br>- Frequency detectors            |
-| **XOR Gate**   | 7486                     | - Parity checker and generator<br>- Half adders and full adders<br>- Error detection in communication<br>- Digital comparators             |
-| **XNOR Gate**  | 74266                    | - Equality comparators<br>- Error checking circuits<br>- Phase detectors<br>- Digital data matching systems                                |
-
-
 
 
 
