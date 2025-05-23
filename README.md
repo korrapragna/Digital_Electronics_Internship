@@ -680,26 +680,34 @@ Description
 # Implementation of Logic gates
 
 # AND gate using NAND gate 7400
-![image](https://github.com/user-attachments/assets/7e58a2c4-db95-4c85-805d-60a7e9c912e1)
+![image](https://github.com/user-attachments/assets/744674bf-febb-46c0-a953-41be857c5e96)
 
 # Tinkercad Link : 
 [AND gate using NAND gate 7400 on Tinkercad](https://www.tinkercad.com/things/a1t5VJz6Hb3-and-gate-using-nand-gate-7400)
 
 # OR gate using NAND gate 7400
-![image](https://github.com/user-attachments/assets/9a9959e8-38d7-440f-842b-0ddde0cfc8ed)
+![image](https://github.com/user-attachments/assets/ad943213-d1bb-4bb8-a97f-1b010100b284)
 
 # Tinkercad Link : 
 [OR Gate using NAND Gate - Tinkercad](https://www.tinkercad.com/things/4MVhqPxYb8F-or-gate-using-nand-gate-7400)
 
 # NOT gate using NAND gate 7400
-![image](https://github.com/user-attachments/assets/28119931-2eaf-4875-841a-6c543f7cc3d4)
+![image](https://github.com/user-attachments/assets/ec6dacee-4cf4-4f93-a56c-d7f277d17ea3)
 
 # Tinkercad Link : 
 [NOT Gate using NAND Gate (Tinkercad)](https://www.tinkercad.com/things/aatCVZAgsNE-not-gate-using-nand-gate-7400)
 
+# AND gate using NOR gate 7402
+![image](https://github.com/user-attachments/assets/91fce872-6f20-49d9-86f6-0e708b4b5963)
 
+# Tinkercad Link : 
+[AND Gate using NOR Gate (7402) - Tinkercad](https://www.tinkercad.com/things/jjga50hvkjJ-and-gate-using-nor-gate-7402)
 
+# NOT gate using NOR gate 7402
+![image](https://github.com/user-attachments/assets/b519ef9d-e01e-400a-ba7a-58d6a9a1946a)
 
+# Tinkercad Link : 
+[NOT Gate using NOR Gate - Tinkercad](https://www.tinkercad.com/things/7SqApTzLLIG-not-gate-using-nor-gate-7402)
 
 
 
