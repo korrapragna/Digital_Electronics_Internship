@@ -703,6 +703,12 @@ Description
 # Tinkercad Link : 
 [AND Gate using NOR Gate (7402) - Tinkercad](https://www.tinkercad.com/things/jjga50hvkjJ-and-gate-using-nor-gate-7402)
 
+# OR gate using NOR gate 7402
+![image](https://github.com/user-attachments/assets/273c32b1-ac57-4d7a-85f0-9b6e8ce4d35b)
+
+# Tinkercad Link : 
+[Open OR Gate using NOR Gate (7402) in Tinkercad](https://www.tinkercad.com/things/iXXioJ5NSDX-or-gate-using-nor-gate-7402)
+
 # NOT gate using NOR gate 7402
 ![image](https://github.com/user-attachments/assets/b519ef9d-e01e-400a-ba7a-58d6a9a1946a)
 
