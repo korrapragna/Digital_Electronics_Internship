@@ -17,6 +17,8 @@
 - [Integrated Circuits](#Integrated-Circuits)
 
 - [Implementation of Logic gates](#Implementation-of-Logic-gates)
+
+- [Implementation of Half Adder](#Implementation-of-Half-Adder)
   
 # What is Digital Electronics
 Digital electronics is a branch of electronics that deals with systems that use discrete (distinct) signal levels, typically represented by binary numbers — 0 and 1. Unlike analog electronics, where signals can vary smoothly across a range of values, digital electronics processes information using only two states (usually referred to as LOW and HIGH, or OFF and ON).
@@ -247,12 +249,12 @@ Or in Boolean algebra:
 
 Q=A∧B
 # Truth table :
-| INP A |INP B | OUTPUT Y    |
-| -     | -    | ----------- |
-| 0     | 0    | 0           |
-| 0     | 1    | 0           |
-| 1     | 0    | 0           |
-| 1     | 1    | 1           |
+| INPUT A |INPUT B | OUTPUT Y    |
+| -       | -      | ----------- |
+| 0       | 0      | 0           |
+| 0       | 1      | 0           |
+| 1       | 0      | 0           |
+| 1       | 1      | 1           |
 # 2.OR GATE
 # Symbol :
 Standard symbol for a 2-input OR gate:
@@ -267,12 +269,12 @@ Or in Boolean logic:
 
 Q=A∨B
 # Truth table :
-|INP A |INP B | OUTPUT Y |
-| -    | -    | ---------- |
-| 0    | 0    | 0          |
-| 0    | 1    | 1          |
-| 1    | 0    | 1          |
-| 1    | 1    | 1          |
+|INPUT A |INPUT B | OUTPUT Y |
+| -      | -      | ---------- |
+| 0      | 0      | 0          |
+| 0      | 1      | 1          |
+| 1      | 0      | 1          |
+| 1      | 1      | 1          |
 # 3.NOT GATE 
 # Symbol:
 Standard symbol for a NOT gate:
@@ -295,10 +297,10 @@ or
 
 Q=¬A
 # Truth table :
-| INP A | OUTPUT Y  |
-| -     | --------- |
-| 0     | 1         |
-| 1     | 0         |
+| INPUT A | OUTPUT Y  |
+| -       | --------- |
+| 0       | 1         |
+| 1       | 0         |
 # 4.NAND GATE
 # Symbol :
 It's similar to the AND gate symbol but with a small circle (representing NOT) at the output.
@@ -316,12 +318,12 @@ Otherwise, it outputs 1
 Output= 
 A⋅B
 # Truth table :
-|INP A |INP B |(A.B)        | OUTPUT Y                  |
-| -    | -    | ----------- | ------------------------- |
-| 0    | 0    | 0           | 1                         |
-| 0    | 1    | 0           | 1                         |
-| 1    | 0    | 0           | 1                         |
-| 1    | 1    | 1           | 0                         |
+|INPUT A |INPUT B |(A.B)        | OUTPUT Y                  |
+| -      | -      | ----------- | ------------------------- |
+| 0      | 0      | 0           | 1                         |
+| 0      | 1      | 0           | 1                         |
+| 1      | 0      | 0           | 1                         |
+| 1      | 1      | 1           | 0                         |
 # 5.NOR GATE
 # Symbol :
 ![image](https://github.com/user-attachments/assets/627f332b-e977-42de-9886-a492488e4d49)
@@ -332,12 +334,12 @@ A NOR (Not OR) gate gives an output of 1 only when both inputs are 0.
 
 It is the inverse of the OR gate.
 # Truth Table :
-|INP A | INP B | OUTPUT Y |
-| -    | -     | ------- |
-| 0    | 0     | 1       |
-| 0    | 1     | 0       |
-| 1    | 0     | 0       |
-| 1    | 1     | 0       |
+|INPUT A | INPUT B | OUTPUT Y |
+| -      | -       | ------- |
+| 0      | 0       | 1       |
+| 0      | 1       | 0       |
+| 1      | 0       | 0       |
+| 1      | 1       | 0       |
 # 6.XOR GATE
 # Symbol :
 
@@ -349,12 +351,12 @@ The XOR (Exclusive OR) gate gives an output of 1 only when the inputs are differ
 Boolean Expression : Y = A ⊕ B = A̅·B + A·B̅
 
 # Truth table :
-|INP A |INP B | OUTPUT Y |
-| -    | -    | ------- |
-| 0    | 0    | 0       |
-| 0    | 1    | 1       |
-| 1    | 0    | 1       |
-| 1    | 1    | 0       |
+|INPUT A |INPUT B | OUTPUT Y |
+| -      | -      | ------- |
+| 0      | 0      | 0       |
+| 0      | 1      | 1       |
+| 1      | 0      | 1       |
+| 1      | 1      | 0       |
 
 # 7.XNOR GATE :
 # Symbol :
@@ -367,12 +369,12 @@ The XNOR (Exclusive NOR) gate gives an output of 1 only when the inputs are the 
 Boolean Expression : Y = (A ⊕ B)̅ = A·B + A̅·B̅
 
 # Truth table :
-| INP A |INP B | OUTPUT Y |
-| -     | - | -------- |
-| 0     | 0 | 1        |
-| 0     | 1 | 0        |
-| 1     | 0 | 0        |
-| 1     | 1 | 1        |
+| INPUT A |INPUT B | OUTPUT Y |
+| -       | -      | -------- |
+| 0       | 0      | 1        |
+| 0       | 1      | 0        |
+| 1       | 0      | 0        |
+| 1       | 1      | 1        |
 
 # Integrated Circuits
 # what is an Ic?
@@ -714,6 +716,52 @@ Description
 
 # Tinkercad Link : 
 [NOT Gate using NOR Gate - Tinkercad](https://www.tinkercad.com/things/7SqApTzLLIG-not-gate-using-nor-gate-7402)
+
+# Implementation of Half Adder
+
+# Block Diagram
+
+![image](https://github.com/user-attachments/assets/c137b3e3-e9f3-4296-9e76-97b39e3abe1e)
+
+![image](https://github.com/user-attachments/assets/5228f63c-9c46-483c-a41a-710fda06c84f)
+
+Link : [View Half Adder using NAND Gates on Tinkercad](https://www.tinkercad.com/things/3culvWwis9B-half-adder-using-nand-gates-7400)
+
+# Half Adder using 7400 NAND IC Pins
+
+| **Pin No.** | **Pin Name**        | **Connection / Function**              |
+| ----------- | ------------------- | -------------------------------------- |
+| 1           | 1A (Gate 1 Input A) | Input A                                |
+| 2           | 1B (Gate 1 Input B) | Input B                                |
+| 3           | 1Y (Gate 1 Output)  | Output of A NAND B (used for Carry)    |
+| 4           | 2A (Gate 2 Input A) | Input A                                |
+| 5           | 2B (Gate 2 Input B) | Input B                                |
+| 6           | 2Y (Gate 2 Output)  | Output of A NAND B (used in Sum logic) |
+| 7           | GND                 | Connect to Ground (0V)                 |
+| 8–12        | Unused              | Not used in 2-gate configuration       |
+| 13          | Not used            | –                                      |
+| 14          | Vcc                 | Connect to +5V                         |
+
+Description 
+
+- Pin 3 provides the Carry output.
+
+- Pin 6 can be used as part of Sum (XOR) if extended with additional NANDs.
+
+# Truth Table 
+| A | B | Sum | Carry |
+| - | - | --- | ----- |
+| 0 | 0 | 0   | 0     |
+| 0 | 1 | 1   | 0     |
+| 1 | 0 | 1   | 0     |
+| 1 | 1 | 0   | 1     |
+
+Logic Explanation:
+
+- Sum is the result of A XOR B
+
+- Carry is the result of A AND B
+
 
 
 
