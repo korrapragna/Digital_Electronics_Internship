@@ -20,6 +20,8 @@
 
 - [Implementation of Half Adder](#Implementation-of-Half-Adder)
   
+- [Implementation of Full Adder](#Implementation-of-Full-Adder)
+  
 # What is Digital Electronics
 Digital electronics is a branch of electronics that deals with systems that use discrete (distinct) signal levels, typically represented by binary numbers — 0 and 1. Unlike analog electronics, where signals can vary smoothly across a range of values, digital electronics processes information using only two states (usually referred to as LOW and HIGH, or OFF and ON).
 
@@ -762,13 +764,8 @@ Logic Explanation:
 
 - Carry is the result of A AND B
 
+# Implementation of Full Adder
 
-
-
-
-
-
-
-
-
+# Block Diagram
+![image](https://github.com/user-attachments/assets/b760c407-84ea-4d35-81d5-06c25fb21ada)
 
