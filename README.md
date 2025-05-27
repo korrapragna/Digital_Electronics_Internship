@@ -722,8 +722,7 @@ Description
 # Implementation of Half Adder
 
 # Block Diagram
-
-![image](https://github.com/user-attachments/assets/c137b3e3-e9f3-4296-9e76-97b39e3abe1e)
+![image](https://github.com/user-attachments/assets/d12d4ab5-dd4d-4c0a-81da-53507936d953)
 
 ![image](https://github.com/user-attachments/assets/5228f63c-9c46-483c-a41a-710fda06c84f)
 
@@ -767,5 +766,48 @@ Logic Explanation:
 # Implementation of Full Adder
 
 # Block Diagram
-![image](https://github.com/user-attachments/assets/b760c407-84ea-4d35-81d5-06c25fb21ada)
+![image](https://github.com/user-attachments/assets/f8a5a8ef-6b52-4d4f-8e9b-3797bd0ef562)
+![image](https://github.com/user-attachments/assets/2512f7f6-7372-4a5e-ab7f-7c34838c342e)
+
+Link : 🔗 [Open Tinkercad Simulation](https://www.tinkercad.com/things/7cQNngEElA9-full-adder-using-nor-gate-7402)
+
+# Full Adder using 7402 NAND IC Pins
+| Pin No. | Function            | Gate No. | Description            |
+| ------- | ------------------- | -------- | ---------------------- |
+| 1       | A Input             | Gate 1   | First input of Gate 1  |
+| 2       | B Input             | Gate 1   | Second input of Gate 1 |
+| 3       | Output              | Gate 1   | Output of Gate 1       |
+| 4       | A Input             | Gate 2   | First input of Gate 2  |
+| 5       | B Input             | Gate 2   | Second input of Gate 2 |
+| 6       | Output              | Gate 2   | Output of Gate 2       |
+| 7       | **GND**             | –        | Ground (0V)            |
+| 8       | Output              | Gate 3   | Output of Gate 3       |
+| 9       | B Input             | Gate 3   | Second input of Gate 3 |
+| 10      | A Input             | Gate 3   | First input of Gate 3  |
+| 11      | Output              | Gate 4   | Output of Gate 4       |
+| 12      | B Input             | Gate 4   | Second input of Gate 4 |
+| 13      | A Input             | Gate 4   | First input of Gate 4  |
+| 14      | **Vcc** (Power +5V) | –        | Positive power supply  |
+
+Description 
+
+- The IC contains 4 independent NOR gates.
+
+- Power is supplied through Pin 14 (Vcc) and Pin 7 (GND).
+
+- You can use these gates to build a full adder logic by combining multiple NOR operations.
+# Truth Table 
+| A | B | Cin | Sum | Cout |
+| - | - | --- | --- | ---- |
+| 0 | 0 | 0   | 0   | 0    |
+| 0 | 0 | 1   | 1   | 0    |
+| 0 | 1 | 0   | 1   | 0    |
+| 0 | 1 | 1   | 0   | 1    |
+| 1 | 0 | 0   | 1   | 0    |
+| 1 | 0 | 1   | 0   | 1    |
+| 1 | 1 | 0   | 0   | 1    |
+| 1 | 1 | 1   | 1   | 1    |
+
+
+
 
