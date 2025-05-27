@@ -21,6 +21,8 @@
 - [Implementation of Half Adder](#Implementation-of-Half-Adder)
   
 - [Implementation of Full Adder](#Implementation-of-Full-Adder)
+
+- [Multiplexer's](#Multiplexer's)
   
 # What is Digital Electronics
 Digital electronics is a branch of electronics that deals with systems that use discrete (distinct) signal levels, typically represented by binary numbers — 0 and 1. Unlike analog electronics, where signals can vary smoothly across a range of values, digital electronics processes information using only two states (usually referred to as LOW and HIGH, or OFF and ON).
@@ -808,6 +810,55 @@ Description
 | 1 | 1 | 0   | 0   | 1    |
 | 1 | 1 | 1   | 1   | 1    |
 
+# Multiplexer's
+# 1. 2*1 Multiplexer
+# Block Diagram
+![image](https://github.com/user-attachments/assets/735f0d93-7a7c-4c6a-b8f3-40fe2ab4f600)
 
+![image](https://github.com/user-attachments/assets/9de413d1-5d04-47e3-a1e8-7df1b2b62c23)
 
+Link : [2:1 Multiplexer](https://www.tinkercad.com/things/bEsXioE9o1n-21-multiplexer)
+
+# 2*1 Multiplexer using 7408 7404 7432 IC pin configuration
+| **Pin No.** | **7404 (Hex Inverter)** | **7408 (Quad AND Gate)** | **7432 (Quad OR Gate)** |
+| ----------- | ----------------------- | ------------------------ | ----------------------- |
+| 1           | A1 (Input)              | A1 (Input)               | A1 (Input)              |
+| 2           | Y1 (Output)             | B1 (Input)               | B1 (Input)              |
+| 3           | A2 (Input)              | Y1 (Output)              | Y1 (Output)             |
+| 4           | Y2 (Output)             | A2 (Input)               | A2 (Input)              |
+| 5           | A3 (Input)              | B2 (Input)               | B2 (Input)              |
+| 6           | Y3 (Output)             | Y2 (Output)              | Y2 (Output)             |
+| 7           | **GND**                 | **GND**                  | **GND**                 |
+| 8           | Y4 (Output)             | Y3 (Output)              | Y3 (Output)             |
+| 9           | A4 (Input)              | B3 (Input)               | B3 (Input)              |
+| 10          | Y5 (Output)             | A3 (Input)               | A3 (Input)              |
+| 11          | A5 (Input)              | Y4 (Output)              | Y4 (Output)             |
+| 12          | Y6 (Output)             | B4 (Input)               | B4 (Input)              |
+| 13          | A6 (Input)              | A4 (Input)               | A4 (Input)              |
+| 14          | **Vcc** (5V)            | **Vcc** (5V)             | **Vcc** (5V)            |
+
+- Output Y = A'·I0 + A·I1
+
+Where:
+
+- A = Select line
+
+- I0, I1 = Inputs
+
+- A' = NOT A (from 7404)
+
+- · = AND (from 7408)
+
+- + = OR (from 7432)
+# Truthh Table
+| Select (S) | Input A | Input B | Output Y |
+| ---------- | ------- | ------- | -------- |
+| 0          | 0       | 0       | 0        |
+| 0          | 0       | 1       | 0        |
+| 0          | 1       | 0       | 1        |
+| 0          | 1       | 1       | 0        |
+| 1          | 0       | 0       | 0        |
+| 1          | 0       | 1       | 1        |
+| 1          | 1       | 0       | 1        |
+| 1          | 1       | 1       | 1        |
 
