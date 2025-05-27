@@ -22,7 +22,7 @@
   
 - [Implementation of Full Adder](#Implementation-of-Full-Adder)
 
-- [Multiplexer's](#Multiplexer's)
+- [Multiplexers](#Multiplexers)
   
 # What is Digital Electronics
 Digital electronics is a branch of electronics that deals with systems that use discrete (distinct) signal levels, typically represented by binary numbers — 0 and 1. Unlike analog electronics, where signals can vary smoothly across a range of values, digital electronics processes information using only two states (usually referred to as LOW and HIGH, or OFF and ON).
@@ -810,7 +810,7 @@ Description
 | 1 | 1 | 0   | 0   | 1    |
 | 1 | 1 | 1   | 1   | 1    |
 
-# Multiplexer's
+# Multiplexers
 # 1. 2*1 Multiplexer
 # Block Diagram
 ![image](https://github.com/user-attachments/assets/735f0d93-7a7c-4c6a-b8f3-40fe2ab4f600)
