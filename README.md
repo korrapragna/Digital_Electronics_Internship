@@ -811,7 +811,7 @@ Description
 | 1 | 1 | 1   | 1   | 1    |
 
 # Multiplexers
-# 1. 2*1 Multiplexer
+# 1. 2x1 Multiplexer
 # Block Diagram
 ![image](https://github.com/user-attachments/assets/735f0d93-7a7c-4c6a-b8f3-40fe2ab4f600)
 
@@ -819,7 +819,7 @@ Description
 
 Link : [2:1 Multiplexer](https://www.tinkercad.com/things/bEsXioE9o1n-21-multiplexer)
 
-# 2*1 Multiplexer using 7408 7404 7432 IC pin configuration
+# 2x1 Multiplexer using 7408, 7404, 7432 IC pin configurations
 | **Pin No.** | **7404 (Hex Inverter)** | **7408 (Quad AND Gate)** | **7432 (Quad OR Gate)** |
 | ----------- | ----------------------- | ------------------------ | ----------------------- |
 | 1           | A1 (Input)              | A1 (Input)               | A1 (Input)              |
