@@ -837,19 +837,6 @@ Link : [2:1 Multiplexer](https://www.tinkercad.com/things/bEsXioE9o1n-21-multipl
 | 13          | A6 (Input)              | A4 (Input)               | A4 (Input)              |
 | 14          | **Vcc** (5V)            | **Vcc** (5V)             | **Vcc** (5V)            |
 
-- Output Y = A'·I0 + A·I1
-
-Where:
-
-- A = Select line
-
-- I0, I1 = Inputs
-
-- A' = NOT A (from 7404)
-
-- · = AND (from 7408)
-
-- + = OR (from 7432)
 # Truthh Table
 | Select (S) | Input A | Input B | Output Y |
 | ---------- | ------- | ------- | -------- |
