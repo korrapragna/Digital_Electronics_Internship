@@ -811,7 +811,25 @@ Description
 | 1 | 1 | 1   | 1   | 1    |
 
 # Multiplexers
+# what is Multiplexer?
+ A multiplexer (often abbreviated as MUX) is a digital electronic device that selects one input from multiple input signals and forwards it to a single output line. It acts like a digital switch.
+
+Key Points:
+- A multiplexer has multiple data inputs, one output, and select lines (also called control lines).
+
+- The number of select lines determines how many inputs the multiplexer can handle.
+
+- For example, a 2ⁿ-to-1 multiplexer has:
+
+- 2ⁿ inputs
+
+- 1 output
+
+- n select lines
+
+
 # 1. 2x1 Multiplexer
+A 2:1 multiplexer (2-to-1 MUX) has 2 data inputs, 1 select line, and 1 output. Despite its simplicity, it has many practical applications in digital systems.
 # Block Diagram
 ![image](https://github.com/user-attachments/assets/47de5c7e-97a9-485a-92c1-0266e0cbb791)
 
@@ -848,9 +866,58 @@ Link : [2:1 Multiplexer](https://www.tinkercad.com/things/bEsXioE9o1n-21-multipl
 | 1          | 0       | 1       | 1        |
 | 1          | 1       | 0       | 0        |
 | 1          | 1       | 1       | 1        |
+# Applications 
+1. Data Selector
+ 
+2. Implementing Logic Gates
+
+3. Function Generator
+
+4. CPU Data Path Selection
 
 # 2. 4x1 Multiplexer
+A 4:1 multiplexer is a digital device that selects one of four input signals and passes it to a single output line, based on the values of two select lines.
+
 # Block Diagram
 ![image](https://github.com/user-attachments/assets/df563e73-a0dd-452c-a0bf-b71da9a6a5af)
 
+![image](https://github.com/user-attachments/assets/80ac0eab-7b8f-4e76-a777-d37ece8c5c4c)
 
+Link : 🔗 [View on Tinkercad](https://www.tinkercad.com/things/7fDgLuKNeWr-4x1-multiplexer)
+
+# 4x1 Multiplexer using 7411, 7404, 7432 IC pin configurations
+| **Pin No.** | **7411 (3-input AND)** | **7404 (NOT)**          | **7432 (2-input OR)**  |
+| ----------- | ---------------------- | ----------------------- | ---------------------- |
+| 1           | 1A (Input, Gate 1)     | 1A (Input, Inverter 1)  | 1A (Input, OR Gate 1)  |
+| 2           | 1B (Input, Gate 1)     | 1Y (Output, Inverter 1) | 1B (Input, OR Gate 1)  |
+| 3           | 1C (Input, Gate 1)     | 2A (Input, Inverter 2)  | 1Y (Output, OR Gate 1) |
+| 4           | 1Y (Output, Gate 1)    | 2Y (Output, Inverter 2) | 2A (Input, OR Gate 2)  |
+| 5           | 2A (Input, Gate 2)     | 3A (Input, Inverter 3)  | 2B (Input, OR Gate 2)  |
+| 6           | 2B (Input, Gate 2)     | 3Y (Output, Inverter 3) | 2Y (Output, OR Gate 2) |
+| 7           | **GND**                | **GND**                 | **GND**                |
+| 8           | 2C (Input, Gate 2)     | 4Y (Output, Inverter 4) | 3Y (Output, OR Gate 3) |
+| 9           | 2Y (Output, Gate 2)    | 4A (Input, Inverter 4)  | 3A (Input, OR Gate 3)  |
+| 10          | 3A (Input, Gate 3)     | 5Y (Output, Inverter 5) | 3B (Input, OR Gate 3)  |
+| 11          | 3B (Input, Gate 3)     | 5A (Input, Inverter 5)  | 4Y (Output, OR Gate 4) |
+| 12          | 3C (Input, Gate 3)     | 6Y (Output, Inverter 6) | 4A (Input, OR Gate 4)  |
+| 13          | 3Y (Output, Gate 3)    | 6A (Input, Inverter 6)  | 4B (Input, OR Gate 4)  |
+| 14          | **Vcc** (+5V)          | **Vcc** (+5V)           | **Vcc** (+5V)          |
+
+# Truth Table
+| S1 | S0 | Y (Output) |
+| -- | -- | ---------- |
+| 0  | 0  | D0         |
+| 0  | 1  | D1         |
+| 1  | 0  | D2         |
+| 1  | 1  | D3         |
+
+# Applications 
+- Data Routing
+  
+- ALU Design
+  
+- Function Generation	
+	
+- Memory Addressing
+  
+- CPU Instruction Decoding
