@@ -813,7 +813,7 @@ Description
 # Multiplexers
 # 1. 2x1 Multiplexer
 # Block Diagram
-![image](https://github.com/user-attachments/assets/735f0d93-7a7c-4c6a-b8f3-40fe2ab4f600)
+![image](https://github.com/user-attachments/assets/47de5c7e-97a9-485a-92c1-0266e0cbb791)
 
 ![image](https://github.com/user-attachments/assets/9de413d1-5d04-47e3-a1e8-7df1b2b62c23)
 
@@ -843,9 +843,14 @@ Link : [2:1 Multiplexer](https://www.tinkercad.com/things/bEsXioE9o1n-21-multipl
 | 0          | 0       | 0       | 0        |
 | 0          | 0       | 1       | 0        |
 | 0          | 1       | 0       | 1        |
-| 0          | 1       | 1       | 0        |
+| 0          | 1       | 1       | 1        |
 | 1          | 0       | 0       | 0        |
 | 1          | 0       | 1       | 1        |
-| 1          | 1       | 0       | 1        |
+| 1          | 1       | 0       | 0        |
 | 1          | 1       | 1       | 1        |
+
+# 2. 4x1 Multiplexer
+# Block Diagram
+![image](https://github.com/user-attachments/assets/df563e73-a0dd-452c-a0bf-b71da9a6a5af)
+
 
