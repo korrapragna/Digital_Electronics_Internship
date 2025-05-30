@@ -1,4 +1,4 @@
-# DIGITAL ELECTRONICS
+ # DIGITAL ELECTRONICS
 
 # Table of Contents
 
@@ -811,10 +811,10 @@ Description
 | 1 | 1 | 1   | 1   | 1    |
 
 # Multiplexers
-# what is Multiplexer?
+# what is a Multiplexer?
  A multiplexer (often abbreviated as MUX) is a digital electronic device that selects one input from multiple input signals and forwards it to a single output line. It acts like a digital switch.
 
-Key Points:
+@ Key Points:
 - A multiplexer has multiple data inputs, one output, and select lines (also called control lines).
 
 - The number of select lines determines how many inputs the multiplexer can handle.
@@ -826,7 +826,15 @@ Key Points:
 - 1 output
 
 - n select lines
-
+# Types of Multiplexers
+| **Multiplexer Type** | **Number of Inputs** | **Number of Selection Lines** | **Number of Outputs** |
+| -------------------- | -------------------- | ----------------------------- | --------------------- |
+| 2:1 MUX              | 2                    | 1                             | 1                     |
+| 4:1 MUX              | 4                    | 2                             | 1                     |
+| 8:1 MUX              | 8                    | 3                             | 1                     |
+| 16:1 MUX             | 16                   | 4                             | 1                     |
+| 32:1 MUX             | 32                   | 5                             | 1                     |
+| 64:1 MUX             | 64                   | 6                             | 1                     |
 
 # 1. 2x1 Multiplexer
 A 2:1 multiplexer (2-to-1 MUX) has 2 data inputs, 1 select line, and 1 output. Despite its simplicity, it has many practical applications in digital systems.
@@ -855,7 +863,7 @@ Link : [2:1 Multiplexer](https://www.tinkercad.com/things/bEsXioE9o1n-21-multipl
 | 13          | A6 (Input)              | A4 (Input)               | A4 (Input)              |
 | 14          | **Vcc** (5V)            | **Vcc** (5V)             | **Vcc** (5V)            |
 
-# Truthh Table
+# Truth Table
 | Select (S) | Input A | Input B | Output Y |
 | ---------- | ------- | ------- | -------- |
 | 0          | 0       | 0       | 0        |
@@ -867,13 +875,13 @@ Link : [2:1 Multiplexer](https://www.tinkercad.com/things/bEsXioE9o1n-21-multipl
 | 1          | 1       | 0       | 0        |
 | 1          | 1       | 1       | 1        |
 # Applications 
-1. Data Selector
+- Data Selector
  
-2. Implementing Logic Gates
+- Implementing Logic Gates
 
-3. Function Generator
+- Function Generator
 
-4. CPU Data Path Selection
+- CPU Data Path Selection
 
 # 2. 4x1 Multiplexer
 A 4:1 multiplexer is a digital device that selects one of four input signals and passes it to a single output line, based on the values of two select lines.
