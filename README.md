@@ -22,7 +22,7 @@
   
 - [Implementation of Full Adder](#Implementation-of-Full-Adder)
 
-- [Multiplexers](#Multiplexers)
+- [Implementation of Multiplexers](#Implementation-of-Multiplexers)
   
 # What is Digital Electronics
 Digital electronics is a branch of electronics that deals with systems that use discrete (distinct) signal levels, typically represented by binary numbers — 0 and 1. Unlike analog electronics, where signals can vary smoothly across a range of values, digital electronics processes information using only two states (usually referred to as LOW and HIGH, or OFF and ON).
@@ -725,7 +725,7 @@ Description
 
 # Block Diagram
 ![image](https://github.com/user-attachments/assets/d12d4ab5-dd4d-4c0a-81da-53507936d953)
-
+# Tinkercad Image
 ![image](https://github.com/user-attachments/assets/5228f63c-9c46-483c-a41a-710fda06c84f)
 
 Link : [View Half Adder using NAND Gates on Tinkercad](https://www.tinkercad.com/things/3culvWwis9B-half-adder-using-nand-gates-7400)
@@ -769,6 +769,7 @@ Logic Explanation:
 
 # Block Diagram
 ![image](https://github.com/user-attachments/assets/f8a5a8ef-6b52-4d4f-8e9b-3797bd0ef562)
+# Tinkercad Image
 ![image](https://github.com/user-attachments/assets/2512f7f6-7372-4a5e-ab7f-7c34838c342e)
 
 Link : 🔗 [Open Tinkercad Simulation](https://www.tinkercad.com/things/7cQNngEElA9-full-adder-using-nor-gate-7402)
@@ -810,7 +811,7 @@ Description
 | 1 | 1 | 0   | 0   | 1    |
 | 1 | 1 | 1   | 1   | 1    |
 
-# Multiplexers
+# Implementation of Multiplexers
 # what is a Multiplexer?
  A multiplexer (often abbreviated as MUX) is a digital electronic device that selects one input from multiple input signals and forwards it to a single output line. It acts like a digital switch.
 
@@ -841,11 +842,12 @@ A 2:1 multiplexer (2-to-1 MUX) has 2 data inputs, 1 select line, and 1 output. D
 # Block Diagram
 ![image](https://github.com/user-attachments/assets/47de5c7e-97a9-485a-92c1-0266e0cbb791)
 
+# Tinkercad Image
 ![image](https://github.com/user-attachments/assets/9de413d1-5d04-47e3-a1e8-7df1b2b62c23)
 
 Link : [2:1 Multiplexer](https://www.tinkercad.com/things/bEsXioE9o1n-21-multiplexer)
 
-# 2x1 Multiplexer using 7408, 7404, 7432 IC pin configurations
+# IC pin configuration
 | **Pin No.** | **7404 (Hex Inverter)** | **7408 (Quad AND Gate)** | **7432 (Quad OR Gate)** |
 | ----------- | ----------------------- | ------------------------ | ----------------------- |
 | 1           | A1 (Input)              | A1 (Input)               | A1 (Input)              |
@@ -889,11 +891,12 @@ A 4:1 multiplexer is a digital device that selects one of four input signals and
 # Block Diagram
 ![image](https://github.com/user-attachments/assets/df563e73-a0dd-452c-a0bf-b71da9a6a5af)
 
+# Tinkercad Image
 ![image](https://github.com/user-attachments/assets/80ac0eab-7b8f-4e76-a777-d37ece8c5c4c)
 
 Link : 🔗 [View on Tinkercad](https://www.tinkercad.com/things/7fDgLuKNeWr-4x1-multiplexer)
 
-# 4x1 Multiplexer using 7411, 7404, 7432 IC pin configurations
+# IC pin configuration
 | **Pin No.** | **7411 (3-input AND)** | **7404 (NOT)**          | **7432 (2-input OR)**  |
 | ----------- | ---------------------- | ----------------------- | ---------------------- |
 | 1           | 1A (Input, Gate 1)     | 1A (Input, Inverter 1)  | 1A (Input, OR Gate 1)  |
