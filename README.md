@@ -381,7 +381,7 @@ Boolean Expression : Y = (A ⊕ B)̅ = A·B + A̅·B̅
 | 1       | 1      | 1        |
 
 # Integrated Circuits
-# what is an Ic?
+# What is an Ic?
 An IC (Integrated Circuit) is a small electronic device made of a semiconductor material (usually silicon) that contains a large number of tiny components like:
 
 - Transistors
@@ -812,7 +812,7 @@ Description
 | 1 | 1 | 1   | 1   | 1    |
 
 # Implementation of Multiplexers
-# what is a Multiplexer?
+# What is a Multiplexer?
  A multiplexer (often abbreviated as MUX) is a digital electronic device that selects one input from multiple input signals and forwards it to a single output line. It acts like a digital switch.
 
 @ Key Points:
